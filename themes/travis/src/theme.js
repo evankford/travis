@@ -164,9 +164,9 @@ function initBlotters() {
     // Set the default blotterMaterial uniform values.
       // blotterMaterial.uniforms.uSineDistortSpread.value = .18;
       // blotterMaterial.uniforms.uSpeed.value = .038;
-      blotterMaterial.uniforms.uVolatility.value = .018;
+      blotterMaterial.uniforms.uVolatility.value = .008;
       blotterMaterial.uniforms.uSpeed.value = 0;
-      blotterMaterial.uniforms.uVolatility.offset = 0;
+      blotterMaterial.uniforms.uVolatility.value = .12;
       // blotterMaterial.uniforms.uApplyBlur.value = 1;
       // blotterMaterial.uniforms.uAnimateNoise.value = 1;
       // blotterMaterial.uniforms.uRotation.value = .018;
@@ -198,7 +198,6 @@ function initBlotters() {
       blotEnder.y = 0.01 * (mouse.y*4 - blotEnder.y)
       elem.style.transform = 'translate3d(' +blotEnder.x + 'px, ' +  blotEnder.y + 'px, 0)';
       // console.log(blotterTarg.x);
-      // blotterMaterial.uniforms.uVolatility.offset = Math.abs(1/blotterTarg.x*blotterTarg.y);
 
     }
     animateBlotter();
