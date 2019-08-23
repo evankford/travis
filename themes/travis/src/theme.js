@@ -10,13 +10,6 @@ import 'lazysizes';
 import  THREE from './js/vendor/three-bundle.js';
 import {  EffectComposer, EffectPass, RenderPass, GlitchEffect } from "postprocessing";
 
-// import  * as Blotter from './js/vendor/blotter';
-import './js/vendor/fulltilt';
-import GyroNorm from 'gyronorm';
-
-
-const gn = new GyroNorm();
-
 
 
 
@@ -241,20 +234,15 @@ const rotationCoef = 0.15;
   //   console.log(this.mouseTargetX.toFixed(1),this.mouseTargetY.toFixed(1));
   // }, true);
 
+window.addEventListener("deviceorientation", handleOrientation, true);
 
-  gn.init({ gravityNormalized: true }).then(function () {
-    gn.start(function (data) {
-
-      let y = data.do.gamma;
-      let x = data.do.beta;
-
-      mouse.x = clamp(x, -maxTilt, maxTilt) / maxTilt;
-      mouse.y = -clamp(y, -maxTilt, maxTilt) / maxTilt;
-      
-      
-
-    });
-  }).catch(function (e) {
-    console.log('not supported');
-    // Catch if the DeviceOrientation or DeviceMotion is not supported by the browser or device
-  });
+function handleOrientation(event) {
+  
+        let y = event.do.gamma *  rotationCoef;
+        let x = event.do.beta * rotationCoef;
+  
+        mouse.x = clamp(x, -maxTilt, maxTilt) / maxTilt;
+        mouse.y = -clamp(y, -maxTilt, maxTilt) / maxTilt;
+        
+  
+}
