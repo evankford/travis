@@ -1,0 +1,35 @@
+{
+  "main.css": "theme/main-03342e1c.css",
+  "main.css.map": "theme/main-03342e1c.css.map",
+  "main.js": "theme/main-4c1d738d.js",
+  "main.js.map": "theme/main-4c1d738d.js.map",
+  "runtime.js": "theme/runtime-dbeb5f4c.js",
+  "runtime.js.map": "theme/runtime-dbeb5f4c.js.map",
+  "theme/assets/levi.ttf": "theme/assets/levi-edb1b417.ttf",
+  "theme/assets/levi.woff": "theme/assets/levi-67aea437.woff",
+  "theme/assets/levi.woff2": "theme/assets/levi-01e0b4e6.woff2",
+  "theme/assets/mont.woff": "theme/assets/mont-9c605ed6.woff",
+  "theme/assets/mont.woff2": "theme/assets/mont-498a28c3.woff2",
+  "vendors~main.js": "theme/vendors~main-8d82d53d.js",
+  "vendors~main.js.map": "theme/vendors~main-8d82d53d.js.map",
+  "wpackioEp": {
+    "main": {
+      "js": [
+        "theme/runtime-dbeb5f4c.js",
+        "theme/vendors~main-8d82d53d.js",
+        "theme/main-4c1d738d.js"
+      ],
+      "js.map": [
+        "theme/runtime-dbeb5f4c.js.map",
+        "theme/vendors~main-8d82d53d.js.map",
+        "theme/main-4c1d738d.js.map"
+      ],
+      "css": [
+        "theme/main-03342e1c.css"
+      ],
+      "css.map": [
+        "theme/main-03342e1c.css.map"
+      ]
+    }
+  }
+}
