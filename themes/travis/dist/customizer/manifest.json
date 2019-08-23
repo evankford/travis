@@ -1,0 +1,14 @@
+{
+  "main.js": "customizer/main.js",
+  "runtime.js": "customizer/runtime.js",
+  "vendors~main.js": "customizer/vendors~main.js",
+  "wpackioEp": {
+    "main": {
+      "js": [
+        "customizer/runtime.js",
+        "customizer/vendors~main.js",
+        "customizer/main.js"
+      ]
+    }
+  }
+}

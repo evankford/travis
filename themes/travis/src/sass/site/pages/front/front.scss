@@ -1,0 +1,35 @@
+#header-canvas {
+  height: 100vh;
+  width: 100vw; 
+}
+
+#topGl > canvas {
+  width: 100vh;
+  height: 100vh;
+}
+
+body.home {
+  background: black;  
+}
+
+#plain-text {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+  font-family: 'Levi';
+  transition: transform 200ms ease-out;
+  &.blotter-loaded  h2 {
+    position: absolute;
+    z-index: -999;
+    left: -200vw;
+  }
+  h2 {
+    max-height: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+}
+
+header {
+  display: none;
+}
