@@ -74,7 +74,7 @@
     "glsl-blend": "^1.0.3",
     "glslify": "^7.0.0",
     "gyronorm": "^2.0.6",
-    "lazysizes": "^5.1.1",
+    "lazysizes": "^5.2.1",
     "postprocessing": "^6.6.0",
     "three-orbitcontrols": "^2.102.2",
     "underscore": "^1.9.1"
