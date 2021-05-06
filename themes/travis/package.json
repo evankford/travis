@@ -77,6 +77,6 @@
     "lazysizes": "^5.1.1",
     "postprocessing": "^6.6.0",
     "three-orbitcontrols": "^2.102.2",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   }
 }
