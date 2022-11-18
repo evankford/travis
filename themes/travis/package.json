@@ -26,7 +26,7 @@
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
-    "@wpackio/scripts": "^3.5.0",
+    "@wpackio/scripts": "^6.4.0",
     "EventEmitter": "^1.0.0",
     "autoprefixer": "^9.1.5",
     "babel-eslint": "^9.0.0",
